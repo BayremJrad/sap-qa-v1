@@ -1,0 +1,17 @@
+workspace:
+  id: fa354247-cbae-4231-9730-70d584d70f4c
+resourceNameMappings:
+  specs:
+    - ../postman/specs/SafeStar_Spec.yaml: SafeStar_Spec.yaml
+cloudResources:
+  collections:
+    ../postman/collections/SafeStar Service API: 59414092-3e6e2640-a1a4-49c6-900b-285c94d8b656
+    ../postman/collections/SafeStar Service Testing: 59414092-66e70721-97d4-4142-9bd8-a4a4a8243719
+  environments:
+    ../postman/environments/Local.environment.yaml: 59414092-3fc15b11-89d2-44df-afdb-5f025b060ed6
+    ../postman/environments/Prod.environment.yaml: 59414092-48a32cca-d9bd-49b8-abfb-7d3a8cee64e3
+    ../postman/environments/Test.environment.yaml: 59414092-50255037-599f-4370-a8a4-c7001fee5e0e
+  specs:
+    ../postman/specs/SafeStar_Spec.yaml: 8920d365-7f2e-4907-9a63-290fa67d20be
+  globals:
+    ../postman/globals/workspace.globals.yaml: 0b116d3c-db5c-492f-86a9-9ec27733b902
